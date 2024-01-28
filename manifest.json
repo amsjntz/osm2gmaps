@@ -1,0 +1,17 @@
+{
+	"description": "lorem ipsum",
+	"manifest_version": 2,
+	"name": "osm2gmaps",
+	"version": "1.0",
+	"homepage_url": "https://github.com/amsjntz/osm2gmaps",
+	
+	"permissions": [
+		"contextMenus"
+	],
+	"content_scripts": [
+		{
+			"matches": ["*://www.openstreetmap.org/*"],
+			"js": ["scripts/osm2gmaps.js"]
+		}
+	]
+}
