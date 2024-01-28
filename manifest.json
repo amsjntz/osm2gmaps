@@ -12,6 +12,10 @@
 		{
 			"matches": ["*://www.openstreetmap.org/*"],
 			"js": ["scripts/osm2gmaps.js"]
+		},
+		{
+			"matches": ["*://overpass-turbo.eu/*"],
+			"js": ["scripts/overpass.js"]
 		}
 	]
 }
